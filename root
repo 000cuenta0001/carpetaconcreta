@@ -1,0 +1,18 @@
+# Minute   Hour   Day of Month       Month          Day of Week        Command
+# (0-59)  (0-23)     (1-31)    (1-12 or Jan-Dec)  (0-6 or Sun-Sat)
+    30      *          *            *                 *              sh /storage/scripts/upgrade.sh
+    35      *          *            *                 *              sh /storage/scripts/upgrade.sh
+    30      *          *            *                 *              python /storage/scripts/noip.py
+    10      *          *            *                 *              sh /storage/scripts2/upgrade2.sh
+    15      *          *            *                 *              sh /storage/scripts2/upgrade2.sh
+    20      *          *            *                 *              sh /storage/scripts3/upgrade3.sh
+    25      *          *            *                 *              sh /storage/scripts3/upgrade3.sh
+    22      *          *            *                 *              sh /storage/scripts4/upgrade4.sh
+    27      *          *            *                 *              sh /storage/scripts4/upgrade4.sh
+    40      *          *            *                 *              sh /storage/scripts5/upgrade5.sh
+    45      *          *            *                 *              sh /storage/scripts5/upgrade5.sh
+
+# # Minute   Hour   Day of Month       Month          Day of Week   Command
+# (0-59)  (0-23)     (1-31)    (1-12 or Jan-Dec)  (0-6 or Sun-Sat)
+    0        6         *             *                *               sh /storage/borra.sh
+
